@@ -1,5 +1,6 @@
 'use strict';
 
-var get_date_string = require('ucg-rb-common').get_date_string;
+var common = require('./index.js');
+var get_date_string = common.get_date_string;
 
-print get_date_string();
+console.log(get_date_string());
