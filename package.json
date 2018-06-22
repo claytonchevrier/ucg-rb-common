@@ -1,0 +1,19 @@
+{
+  "name": "@claytonchevrier/ucg-rb-common",
+  "version": "0.1.0",
+  "description": "common code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytonchevrier/ucg-rb-common.git"
+  },
+  "author": "Clayton N Chevrier <clayton.chevrier@ibm.com> (http://www.chevrier.org/clayton)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claytonchevrier/ucg-rb-common/issues"
+  },
+  "homepage": "https://github.com/claytonchevrier/ucg-rb-common#readme"
+}
