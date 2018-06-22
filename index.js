@@ -2,6 +2,35 @@
 
 module.exports = {
 	"get_date_string": function() {
-		return "It worked.";
-	}
+        //** Get Current Date/Time **/
+        var now     = new Date();
+        var year    = now.getFullYear();
+        var month   = now.getMonth()+1;
+        var day     = now.getDate();
+        var hour    = now.getHours();
+        var minute  = now.getMinutes();
+        var second  = now.getSeconds();
+        var milli   = now.getMilliseconds();
+        
+        if(month.toString().length == 1) {
+            month = '0'+month;
+        }
+        if(day.toString().length == 1) {
+            day = '0'+day;
+        }
+        if(hour.toString().length == 1) {
+            hour = '0'+hour;
+        }
+        if(minute.toString().length == 1) {
+            minute = '0'+minute;
+        }
+        if(second.toString().length == 1) {
+            second = '0'+second;
+        }
+        if(milli.toString().length == 1) {
+            milli = '0'+milli;
+        }
+        
+        return  year+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+':'+milli;
+    }
 };
